@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-image: linear-gradient(to right, #6f84df, #153bd1);
+  backdrop-filter: blur(10px);
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+h3 {
+  margin: 1.2rem auto;
+  color: gainsboro;
+  width: 80%;
+}
+
+.App {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.input {
+  padding: 1rem;
+  width: 40%;
+  border: 2px #0a3272 solid;
+  border-radius: 0.5rem 0.5rem;
+  height: 7vh;
+  text-align: center;
+  background-color: #0a3272;
+}
+
+.input::placeholder {
+  color: gainsboro;
+  font-family: "Raleway", sans-serif;
+}
+
+.output {
+  border: 2px #0a3272 solid;
+  height: 7vh;
+  width: 40%;
+  border-radius: 0.5rem 0.5rem;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: larger;
+  background-color: #0a3272;
+  color: gainsboro;
+}
+
+.emoji {
+  font-size: 2rem;
+  width: 70%;
+  margin: auto;
+  cursor: pointer;
+  /* background-color: #0a3272;
+  padding: 1rem;
+  border-radius: 0.5rem 0.5rem; */
+}
+
+@media only screen and (max-width: 900px) {
+  .emoji {
+    width: 80%;
+  }
+
+  .output {
+    width: 80%;
+  }
+
+  .input {
+    width: 80%;
+  }
+}
